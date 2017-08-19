@@ -1,0 +1,51 @@
+body {
+  font-family: Courier, monospace;
+  font-size: 14pt;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.clear {
+  clear: both;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#content {
+  width: 960px;
+  margin: 100px auto;
+}
+
+#content .form {
+  width: 570px;
+  margin: 20px auto;
+}
+
+label {
+  width: 160px;
+  float: left;
+}
+
+input#client_key,
+input#client_secret {
+  width: 400px;
+  background-color: #E0E0E0;
+  border: 1px solid #000000;
+  font-family: Courier, mono-space;
+  font-size: 12pt;
+}
+
+#bitbucket_configuration {
+  width: 950px;
+  margin: 0px auto;
+  height: 72px;
+  background-color: #E0E0E0;
+  border: 1px solid #000000;
+  font-family: Courier, mono-space;
+  font-size: 11pt;
+  resize: none;
+}
